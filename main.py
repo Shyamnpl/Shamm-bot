@@ -468,8 +468,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 async def MaiiiinE():
     global TarGeT, LoGinDaTaUncRypTinG, region, key, iv 
-    Uid = os.environ.get('FF_UID')
-    Pw = os.environ.get('FF_PW')
+    Uid , Pw = '4266639041','B5454E6CCF4E07071197BD61957847DEC791F6C8F7468B4B530D926924A61D73'
     
     open_id , access_token = await GeNeRaTeAccEss(Uid , Pw)
     if not open_id or not access_token: print("ErroR - InvaLid AccounT") ; return None
