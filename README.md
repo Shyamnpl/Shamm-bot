@@ -1,1 +1,0 @@
-# Shamm-bot
